@@ -178,7 +178,7 @@ if __name__ == "__main__":
             if (not checksorted(lstq)):
                 print ("Data correctly sorted after running <quicksort>.")
             else :
-                print ("ata incorrectly sorted after running <quicksort>.")
+                print ("Data incorrectly sorted after running <quicksort>.")
         elif sys.argv[1] == 'i':
             stime = time()
             lsti = insertionsort(cases)
@@ -189,7 +189,7 @@ if __name__ == "__main__":
             if (not checksorted(lsti)):
                 print ("Data correctly sorted after running <insertionsort>.")
             else :
-                print ("ata incorrectly sorted after running <insertionsort>.")
+                print ("Data incorrectly sorted after running <insertionsort>.")
         elif sys.argv[1] == 's':
             stime = time()
             lsts = selectionsort(cases)
@@ -200,6 +200,6 @@ if __name__ == "__main__":
             if (not checksorted(lsts)):
                 print ("Data correctly sorted after running <selectionslot>.")
             else :
-                print ("ata incorrectly sorted after running <selectionslot>.")
+                print ("Data incorrectly sorted after running <selectionslot>.")
     else:
         print('Wrong input for sort method')
