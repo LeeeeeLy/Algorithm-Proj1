@@ -34,3 +34,4 @@ Sorting 60000 numbers of sorted data with selectionslot takes:
 Data correctly sorted after running <selectionslot>.
 ...
 ```
+Note: The csv file seems will change its format when it was opened on a new computer - In case the digits of time got truncated, the report contains the same chart as a picture.
